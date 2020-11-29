@@ -4,7 +4,7 @@ import CollectionItem from '../collection-item/collection-item.component'
 
 import './collection-preview.styles.scss'
 
-const CollectionPreview = ({title, routeName, items}) => (<div className='collection-preview'>
+const CollectionPreview = ({title, items}) => (<div className='collection-preview'>
    <h1 className='title'>{title.toUpperCase()}</h1>
    <div className='preview'>
       {items
